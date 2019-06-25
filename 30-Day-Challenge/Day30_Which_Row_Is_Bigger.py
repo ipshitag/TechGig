@@ -7,7 +7,7 @@ def main():
         if sum(arr)>max:
             max = sum(arr)
             rowid = i+1
-    print("Row",rowid)
+    print("Row",rowid, end = " ")
     
 main()
 
